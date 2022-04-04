@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,6 +17,11 @@
 a {
     text-decoration: none;
 }
+.navbar {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
 .navlink {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -25,8 +30,25 @@ a {
     line-height: 19px;
     letter-spacing: 0.3px;
     color: #FFFFFF;
+    transition: 0.5s;
+}
+.navlink:hover {
+    color: #FF8C00
+}
+.button {
+    display: flex;
+    align-items: center;
+    background: #FF8C00;
+    border-radius: 10px;
+    padding: 17px 53px;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: yellowgreen;
 }
 .register {
+    display: flex;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -34,4 +56,460 @@ a {
     line-height: 22px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+}
+.section-one {
+    background:  #060202;
+    padding-top: 127px;
+}
+.container.one {
+    display: flex;
+    padding: 0 20px;
+    gap: 221px;
+    justify-content: flex-start;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 96px;
+    letter-spacing: 1px;
+    background: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.rectangle {
+    background: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%);
+    position: relative;
+    width: 130px;
+    height: 8px;
+    top: 52px;
+    left: 475px;
+}
+.head1 {
+    width: 605px;
+}
+.list {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.listitem {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.check {
+    width: 26px;
+}
+.text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.learnmore {
+    padding: 22px 84px;
+    background: linear-gradient(94.9deg, #FF814A 17.4%, #FFA825 105.56%, rgba(255, 140, 0, 0) 125.9%, #FFA825 125.91%);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.buttonlearn {
+    margin-top: 72px;
+}
+.phoneimg   {
+    position: relative;
+}
+.one-img, .two-img, .three-img {
+    position: absolute;
+}
+.one-img {
+    top: 332px;
+    left: -244px;
+}
+.two-img {
+    top: 121px;
+    left: 132px;
+}
+.three-img{
+    top: 443px;
+    left: 192px;
+}
+.section-two {
+    background:  #060202;
+}
+.container.sec {
+    flex-direction: column;
+    padding: 96px 20px 0;
+}
+.market h2 {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    background: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.subheader {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #A5A5A5;
+}
+.bar {
+    display: flex;
+    max-width: 1240px;
+    justify-content: space-around;
+    background: #1A1A1A;
+    margin: 12px 0;
+    transition: 0.5s;
+    
+}
+.bar:hover {
+    transform: scale(1.2);
+    margin: 18px 0;
+    border: 2px solid;
+    /* border-image-source: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%); */
+    border-color: #FF814A;
+}
+
+.name, .cost, .percent {
+    margin: 15px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #D5D5D5;
+}
+.percent {
+    color: #ED4C5C;
+}
+.percent.green {
+    color: #20BF6B;
+}
+.button2 {
+    background: #1D1D1D;
+    padding: 14px 33px;
+    margin: 15px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #D5D5D5
+}
+.graph {
+    margin: 15px 0;
+    max-width: 100%;
+}
+.section-three {
+    background:  #060202;
+}
+.container-three {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 170px 20px 0;
+    margin: 0 auto;
+}
+.phoneimg.wallet {
+    padding: 20px 18px 0 0;
+    position: relative;
+}
+.wallet {
+    position: relative;
+}
+.blur {
+    position: absolute;
+    width: 107px;
+    height: 93px;
+    background: rgba(255, 168, 37, 0.68);
+    filter: blur(100px);
+    background: #FFA825AD;
+}
+.blur.upper {
+    top: 0;
+    right: 0px;
+}
+.blur.lower {
+    left: 0;
+    bottom: 68px;
+}
+.content.again {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 695px;
+}
+.head2 h2 {
+    margin-bottom: 64px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content.again .text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0.5px
+    color: #EBEBEB; 
+}
+.content.again .list {
+    margin-top: 0;
+}
+.content.again .listitem {
+    gap: 42px;
+}
+.content.again .check {
+    width: 34px;
+    height: 34px;
+}
+.section-four {
+    background:  #060202;
+}
+.container-four {
+    max-width: 1050px;
+    display: flex;
+    flex-direction: column;
+    padding: 258px 20px 0;
+    margin: 0 auto;
+    align-items: center;
+}
+.head4 h2 {
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    letter-spacing: 0.5px;   
+    background: linear-gradient(109.83deg, #FF814A 16.61%, #FFA825 35.74%, #F1F37C 117.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+.subhead4 {
+    margin-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 90px;
+    letter-spacing: 0.5px;
+    color: #A5A5A5;
+}
+.cardblock {
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+    position: relative;
+}
+.card {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #202020;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.price {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+.price::before {
+    content: '$';
+    font-size: 24px;
+    position: relative;
+    bottom: 65px;
+    left: 25px;
+}
+.price::after {
+    content: '/month';
+    font-size: 18px;
+    position: relative;
+    bottom: 0px;
+    left: -30px;
+}
+.ch-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 22px;
+}
+.ch-item {
+    display: flex;
+    gap: 18px;
+}
+.ch-item img {
+    width: 18px;
+    height: 18px;
+}
+.ch-item p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #F8F8F8;
+}
+#gray {
+    color: #5F5F5F;
+}
+.ch-button {
+    border: 1px solid #F8F8F8;
+    padding: 16px 73px;
+    margin: 75px 0 15px;
+    border-radius: 10px;
+}
+.ch-button.last {
+    margin: 19px 0 15px;
+}
+.ch-button:hover {
+    border: 1px solid #FF814A;
+ }
+.ch-button a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.card.black {
+    background: #060202;
+    position: relative;
+}
+.rect-blur {
+    width: 138px;
+    height: 120px;
+    background: rgba(255, 168, 37, 0.68);
+    filter: blur(100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+footer {
+    background:  #060202;
+}
+.cont-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 358px 20px 89px;
+}
+.main-part {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    padding-bottom: 24px;
+}
+.app-part {
+    display: flex;
+    flex-direction: column;
+    padding-right: 26px;
+    gap: 17px;
+}
+.links-two, .links-one {
+    display: flex;
+    padding-bottom: 12px;
+    gap: 24px;
+}
+.links-two a, .links-one a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.cont-footer a:hover {
+    color: #FF814A;
+}
+.copyright {
+    padding-top: 12px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #D9DBE1;
+}
+.getapp {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    color: #D9DBE1;
+}
+.logo img {
+    width: 46px;
 }
